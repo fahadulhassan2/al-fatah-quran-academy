@@ -8,7 +8,7 @@ const Register = (props: Props) => {
   return (
     <div>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 pt-[4rem] mx-auto">
           <h1 className="text-[1.3rem] md:text-[2.5rem] w-full font-bold text-[#544214]">
             3 Easy Steps for registration
           </h1>
@@ -19,7 +19,7 @@ const Register = (props: Props) => {
                 <div className="">
                   <div className=" flex justify-between">
                     <h1 className="text-[#FFE5A2] text-[2rem] mb-1 font-bold">
-                      Setup
+                      Setup 1
                     </h1>
                     <MdOutlineArrowRightAlt className="text-[#FFE5A2] text-[4rem]" />
                     {/* <svg className="w-6 h-6 text-[#FFE5A2] dark:text-[#FFE5A2]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -42,7 +42,7 @@ const Register = (props: Props) => {
                 <div className="">
                   <div className=" flex justify-between">
                     <h1 className="text-[#544214] text-[2rem] mb-1 font-bold">
-                      Setup
+                      Setup 2
                     </h1>
                     <MdOutlineArrowRightAlt className="text-[#544214] text-[4rem]" />
                     {/* <svg className="w-6 h-6 text-[#544214] dark:text-[#544214]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -65,7 +65,7 @@ const Register = (props: Props) => {
                 <div className="">
                   <div className=" flex justify-between">
                     <h1 className="text-[#FFE5A2] text-[2rem] mb-1 font-bold">
-                      Setup
+                      Setup 3
                     </h1>
                     <MdOutlineArrowRightAlt className="text-[#FFE5A2] text-[4rem]" />
 
