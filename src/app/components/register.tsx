@@ -9,13 +9,13 @@ const Register = (props: Props) => {
     <div>
       <section className="text-gray-600 body-font">
         <div className="container px-5 pt-[4rem] mx-auto">
-          <h1 className="text-[1.3rem] md:text-[2.5rem] w-full font-bold text-[#544214]">
+          <h1 className="text-2xl md:text-[2.5rem] w-full font-bold text-[#544214]">
             3 Easy Steps for registration
           </h1>
           <Image src={Line} alt="Picture of the author" />
           <div className="flex flex-wrap  text-center">
             <div className="p-4 w-full md:w-1/3">
-              <div className="h-full shadow-2xl bg-[#544214] rounded-3xl overflow-hidden p-6">
+              <div className="h-full shadow-2xl bg-[#544214] rounded-3xl custom-shadow overflow-hidden p-6">
                 <div className="">
                   <div className=" flex justify-between items-center">
                     <h1 className="text-[#FFE5A2] text-[2rem] mb-1 font-bold">
@@ -35,7 +35,7 @@ const Register = (props: Props) => {
               </div>
             </div>
             <div className="p-4 w-full md:w-1/3">
-              <div className="h-full bg-[#FFE5A2] rounded-lg overflow-hidden p-6">
+              <div className="h-full bg-[#FFE5A2] rounded-3xl custom-shadow overflow-hidden p-6">
                 <div className="">
                   <div className=" flex justify-between items-center">
                     <h1 className="text-[#544214] text-[2rem] mb-1 font-bold">
@@ -55,7 +55,7 @@ const Register = (props: Props) => {
               </div>
             </div>
             <div className="p-4 w-full md:w-1/3">
-              <div className="h-full bg-[#544214] rounded-lg overflow-hidden p-6">
+              <div className="h-full bg-[#544214] rounded-3xl custom-shadow overflow-hidden p-6">
                 <div className="">
                   <div className=" flex justify-between items-center">
                     <h1 className="text-[#FFE5A2] text-[2rem] mb-1 font-bold">
