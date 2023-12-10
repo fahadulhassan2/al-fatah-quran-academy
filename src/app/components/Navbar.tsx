@@ -57,7 +57,7 @@ const Navbar = (props: Props) => {
         />
       </div>
       {showNav ? (
-        <div className="absolute w-full flex  border-0 border-t-2 border-[#FFE5A2] bg-[#544214] h-auto flex-col md:flex lg:hidden">
+        <div className="transition delay-150 duration-300 ease-in-out absolute w-full flex  border-0 border-t-2 border-[#FFE5A2] bg-[#544214] h-auto flex-col md:flex lg:hidden">
           <nav className="py-6 md:mr-auto gap-3 flex flex-col mr-auto text-left text-base  ">
             <Link
               href={"/"}

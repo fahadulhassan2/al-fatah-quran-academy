@@ -19,7 +19,7 @@ const About = (props: Props) => {
         us in the Pursuit of Spiritual Growth and Enlightenment.
       </p>
       <section className="text-[#000000] text-[1rem] md:text-[1.3rem] font-bold body-font my-[3rem]">
-        <div className="flex justify-between flex-col-reverse rounded-[2rem] md:flex-row items-center m-[3rem]  bg-[#FFE5A2]">
+        <div className="flex justify-between flex-col-reverse rounded-[2rem] md:flex-row items-center m-[2rem]  bg-[#FFE5A2]">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center p-2 md:pl-[3rem]">
             <p className=" leading-relaxed">
               Al-Fatah is providing worldwide with convenient access to quranic
@@ -34,7 +34,7 @@ const About = (props: Props) => {
             />
           </div>
         </div>
-        <div className="flex justify-between rounded-[2rem] md:flex-row flex-col items-center m-[3rem]  bg-[#FFE5A2]">
+        <div className="flex justify-between rounded-[2rem] md:flex-row flex-col items-center m-[2rem] bg-[#FFE5A2]">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full h-full">
             <Image
               className="rounded-[2rem] w-full"
@@ -49,7 +49,7 @@ const About = (props: Props) => {
             </p>
           </div>
         </div>
-        <div className="flex justify-between flex-col-reverse rounded-[2rem] md:flex-row items-center m-[3rem]  bg-[#FFE5A2]">
+        <div className="flex justify-between flex-col-reverse rounded-[2rem] md:flex-row items-center m-[2rem]  bg-[#FFE5A2]">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center p-2 md:pl-[3rem]">
             <p className=" leading-relaxed">
               We are making sure you get high quality education by employing
