@@ -11,10 +11,16 @@ const Pricing = (props: Props) => {
     <section className=" body-font overflow-hidden">
       <div className="container px-5 pt-[4rem] mx-auto">
         <div className="flex flex-col w-full mb-8">
-          <h1 className="text-2xl md:text-[2.5rem]  font-bold title-font mb-2 text-[#544214]">
-            Plan and pricing
-          </h1>
-          <Image src={PriceImg} alt="Picture of the author" />
+          <div className="text-center">
+            <h1 className="text-2xl md:text-[2.5rem] font-bold text-[#544214]">
+              Plan and pricing
+            </h1>
+            <Image
+              className="mx-auto my-3"
+              src={PriceImg}
+              alt="Picture of the author"
+            />
+          </div>
           <p className="lg:w-2/3 leading-relaxed text-base font-bold pt-5 text-[#000000]">
             We believe in making quranic education accessible to all. Our fee
             structure is designed to be transparent and affordable, ensuring
@@ -215,10 +221,16 @@ const Pricing = (props: Props) => {
       </div>
 
       <div className="container px-5 py-[4rem] mx-auto">
-        <h1 className="text-2xl md:text-[2.5rem] font-bold title-font mb-2 text-[#544214]">
-          Referral Program
-        </h1>
-        <Image src={PriceImg} alt="Picture of the author" />
+        <div className="text-center">
+          <h1 className="text-2xl md:text-[2.5rem] font-bold text-[#544214]">
+            Referral Program
+          </h1>
+          <Image
+            className="mx-auto my-3"
+            src={PriceImg}
+            alt="Picture of the author"
+          />
+        </div>
         <div className=" custom-shadow rounded-[2rem] bg-[#FFE5A2] p-[2rem] md:p-[6rem] my-[2rem]">
           <p className="text-[#000000] md:text-2xl font-bold pb-7">
             Al-Fatah Online Quran Academy also offers attractive referral

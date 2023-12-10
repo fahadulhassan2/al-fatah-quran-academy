@@ -10,10 +10,16 @@ type Props = {};
 const About = (props: Props) => {
   return (
     <div className="container px-5 py-[4rem] mx-auto">
-      <h1 className="text-2xl md:text-[2.5rem] font-bold text-[#544214]">
-        About Us
-      </h1>
-      <Image src={Line} alt="Picture of the author" />
+      <div className="text-center">
+        <h1 className="text-2xl md:text-[2.5rem] font-bold text-[#544214]">
+          About Us
+        </h1>
+        <Image
+          className="mx-auto my-3"
+          src={Line}
+          alt="Picture of the author"
+        />
+      </div>
       <p className="text-[#1E1E1E] font-bold pt-5">
         Discover the beauty of learning at Al-Fatah Online Quran Academy. We are
         here to make the teaching and understanding of the Quran much easy and

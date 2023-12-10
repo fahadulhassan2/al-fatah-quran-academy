@@ -9,10 +9,16 @@ const Register = (props: Props) => {
     <div>
       <section className="text-gray-600 body-font">
         <div className="container px-5 pt-[4rem] mx-auto">
-          <h1 className="text-2xl md:text-[2.5rem] w-full font-bold text-[#544214]">
-            3 Easy Steps for registration
-          </h1>
-          <Image src={Line} alt="Picture of the author" />
+          <div className="text-center">
+            <h1 className="text-2xl md:text-[2.5rem] font-bold text-[#544214]">
+              3 Easy Steps for registration
+            </h1>
+            <Image
+              className="mx-auto my-3"
+              src={Line}
+              alt="Picture of the author"
+            />
+          </div>
           <div className="flex flex-wrap  text-center">
             <div className="p-4 w-full md:w-1/3">
               <div className="h-full shadow-2xl bg-[#544214] rounded-3xl custom-shadow overflow-hidden p-6">

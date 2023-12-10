@@ -12,10 +12,16 @@ const Services = (props: Props) => {
     <>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-[4rem] mx-auto">
-          <h1 className="text-2xl md:text-[2.5rem] font-bold text-[#544214]">
-            Services
-          </h1>
-          <Image src={Line} alt="Picture of the author" />
+          <div className="text-center">
+            <h1 className="text-2xl md:text-[2.5rem] font-bold text-[#544214]">
+              Services
+            </h1>
+            <Image
+              className="mx-auto my-3"
+              src={Line}
+              alt="Picture of the author"
+            />
+          </div>
           <div className="flex flex-wrap md:flex-nowrap py-5 ">
             <div className="p-4 w-full md:w-1/2 rounded-t-[2rem]">
               <div className="bg-[#FFE5A2] custom-shadow rounded-[3rem] h-full">

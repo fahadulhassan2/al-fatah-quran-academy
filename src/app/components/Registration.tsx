@@ -11,10 +11,16 @@ const Registration = (props: Props) => {
       <div p-3>
         <section className="body-font relative">
           <div className="container px-5 py-[4rem] mx-auto">
-            <h1 className="text-[#544214] text-2xl md:text-[2.5rem] font-bold">
-              Register With Us
-            </h1>
-            <Image src={Line} alt="Picture of the author" />
+            <div className="text-center">
+              <h1 className="text-2xl md:text-[2.5rem] font-bold text-[#544214]">
+                Register With Us
+              </h1>
+              <Image
+                className="mx-auto my-3"
+                src={Line}
+                alt="Picture of the author"
+              />
+            </div>
             <p className="text-[#1E1E1E] font-bold pt-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
               quidem incidunt ratione. Aliquam deleniti harum est, architecto
