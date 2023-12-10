@@ -1,6 +1,6 @@
 import React from "react";
-import Services from "../components/Services";
 import { Metadata } from "next";
+import ServicePage from "../components/service";
 
 type Props = {};
 export const metadata: Metadata = {
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const Page = (props: Props) => {
   return (
     <>
-      <Services />
+      <ServicePage />
     </>
   );
 };
