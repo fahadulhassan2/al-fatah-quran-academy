@@ -10,8 +10,8 @@ const Navbar = (props: Props) => {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <header className=" sticky top-0 z-50 body-font bg-[#544214] text-[#FFE5A2]">
-      <div className="container md:mx-auto flex flex-wrap p-5 md:flex-row md:justify-between">
+    <header className="sticky top-0 z-50 body-font bg-[#544214] text-[#FFE5A2]">
+      <div className="container mx-auto flex flex-wrap p-5 md:flex-row md:justify-between">
         <Link href={"/"}>
           <Image
             className="w-[17em] cursor-pointer"
@@ -57,7 +57,7 @@ const Navbar = (props: Props) => {
         />
       </div>
       {showNav ? (
-        <div className="absolute w-full flex border border-t-2 border-[#FFE5A2] bg-[#544214] h-auto flex-col md:hidden">
+        <div className="absolute w-full flex  border-0 border-t-2 border-[#FFE5A2] bg-[#544214] h-auto flex-col md:flex lg:hidden">
           <nav className="py-6 md:mr-auto gap-3 flex flex-col mr-auto text-left text-base  ">
             <Link
               href={"/"}
