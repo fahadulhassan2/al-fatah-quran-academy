@@ -10,20 +10,20 @@ const Registration = (props: Props) => {
     <div>
       <div p-3>
         <section className="body-font relative">
-          <div className="container   px-5 py-[4rem] mx-auto">
-            <h1 className="text-[#544214] text-[2.5rem] text-bold">
-              Register With us{" "}
+          <div className="container px-5 py-[4rem] mx-auto">
+            <h1 className="text-[#544214] text-[2.5rem] font-bold">
+              Register With us
             </h1>
             <Image src={Line} alt="Picture of the author" />
-            <p className="text-[#000000] pb-[2rem] md:pb-[7rem]">
+            <p className="text-[#1E1E1E] font-bold pt-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
               quidem incidunt ratione. Aliquam deleniti harum est, architecto
               praesentium sed voluptates quis consectetur cupiditate
               repudiandae, modi nesciunt illum rerum voluptas consequatur!
             </p>
-            <div className="bg-[#544214] rounded-[2rem] px-5 py-24">
+            <div className="bg-[#544214] mt-[5rem] rounded-[2rem] px-5 py-24">
               <div className="lg:w-4/5 bg-[#FFE5A2] rounded-[2rem] md:w-2/3 mx-auto p-3 md:p-10 md:px-14 md:mt-[-9.5rem]">
-                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-center text-[#544214]">
+                <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-center text-[#544214]">
                   Register Now
                 </h1>
                 <div className="flex flex-wrap m-2">
