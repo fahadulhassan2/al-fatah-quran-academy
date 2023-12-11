@@ -28,7 +28,7 @@ const Pricing = (props: Props) => {
             quranic journey
           </p>
         </div>
-        <div className="flex flex-wrap w-full">
+        <div className="flex justify-evenly flex-wrap w-full">
           <div className="py-2 md:p-4 xl:w-1/4 md:w-1/2 w-full">
             <div className="h-full custom-shadow rounded-[2rem] bg-[#FFE5A2]  flex flex-col relative overflow-hidden">
               <div className="bg-[#544214] text-center rounded-[2rem]">
@@ -152,7 +152,7 @@ const Pricing = (props: Props) => {
                 <div className="flex items-center ">
                   <FaCheckCircle className="text-[#0cae1c]" />
                   <p className="pl-3 text-lg font-medium text-[#000000]">
-                    Duas / Kalmas
+                    Namaz / Salah / Hadith
                   </p>
                 </div>
                 <div className="flex items-center ">
@@ -170,7 +170,7 @@ const Pricing = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="py-2 md:p-4 xl:w-1/4 md:w-1/2 w-full">
+          {/* <div className="py-2 md:p-4 xl:w-1/4 md:w-1/2 w-full">
             <div className="h-full custom-shadow rounded-[2rem] bg-[#FFE5A2]  flex flex-col relative overflow-hidden">
               <div className="bg-[#544214] text-center rounded-[2rem]">
                 <h1 className="text-5xl text-[#FFE5A2] text-[2rem]  font-bold p-8 my-4 leading-none">
@@ -216,7 +216,7 @@ const Pricing = (props: Props) => {
                 </button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

@@ -49,8 +49,8 @@ const FAQ = (props: Props) => {
             <p className="mt-1">
               Yes, students at Al Fatah Online Quran Academy can customize their
               learning programs based on their individual needs and goals. The
-              academy offers flexibility in course structures to
-              16gLaJKcDHVHbccbo9ayPsopB6gA1pZB888m8q6g2T8x6kBm
+              academy offers flexibility in course structures to accommodate
+              various preferences.
             </p>
           </div>
           <div>
