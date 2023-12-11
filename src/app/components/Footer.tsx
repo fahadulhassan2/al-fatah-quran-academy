@@ -76,16 +76,26 @@ const Footer = (Props: Props) => {
             </h2>
             <div className="py-2 md:py-4 text-center md:text-left">
               <div className="flex justify-center items-center py-2 md:justify-start text-[#FFE5A2]">
-                <MdEmail className="text-2xl" />
-                <span className="text-[#FFE5A2] px-2">
-                  alfatahquranacadmy@gmail.com
-                </span>
+                <Link
+                  className="flex justify-center items-center"
+                  href="mailto:alfatahquranacadmy@gmail.com"
+                  target="_blank"
+                >
+                  <MdEmail className="text-2xl" />
+                  <span className="text-[#FFE5A2] px-2">
+                    alfatahquranacadmy@gmail.com
+                  </span>
+                </Link>
               </div>
               <div className="flex justify-center items-center py-2 md:justify-start text-[#FFE5A2]">
-                <Link href="tel:+9230947583" target="_blank">
+                <Link
+                  className="flex justify-center items-center"
+                  href="tel:+9230947583"
+                  target="_blank"
+                >
                   <IoCall className="text-2xl" />
+                  <span className="text-[#FFE5A2] px-2">+92 30947583</span>
                 </Link>
-                <span className="text-[#FFE5A2] px-2">+92 30947583</span>
               </div>
               <div className="flex justify-center items-center py-2 md:justify-start text-[#FFE5A2] ">
                 <FaSkype className="text-2xl" />
