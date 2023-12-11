@@ -7,7 +7,7 @@ type Props = {};
 const FAQ = (props: Props) => {
   return (
     <section className="text-[#544214] w-full">
-      <div className="container flex flex-col justify-center px-8 py-4 mx-auto md:p-8">
+      <div className="container flex flex-col justify-center px-2 py-4 mx-auto md:p-8">
         <div className="mx-auto text-center">
           <h1 className="text-2xl md:text-[2.5rem] font-bold text-[#544214]">
             Frequently Asked Questions
@@ -18,7 +18,7 @@ const FAQ = (props: Props) => {
             alt="Picture of the author"
           />
         </div>
-        <div className="grid  gap-8 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
+        <div className="grid bg-[#FFE5A2] rounded-3xl text-[#544214] custom-shadow gap-8 grid-cols-1 md:gap-8 md:grid-cols-2 p-8">
           <div className="">
             <h3 className="font-semibold">
               1. What is the primary focus of Al Fatah quran academy?
@@ -34,7 +34,7 @@ const FAQ = (props: Props) => {
               2. How does the academy ensure qualified instructors for Quranic
               teaching?
             </h3>
-            <p className="mt-">
+            <p className="mt-1">
               Instructors at Al Fatah Online Quran Academy are selected based on
               their expertise in Quranic studies and Islamic knowledge. They
               typically hold relevant educational qualifications and undergo a
@@ -58,7 +58,7 @@ const FAQ = (props: Props) => {
               4. Is the academy suitable for beginners, and how does it support
               students with varying levels of Quranic knowledge?
             </h3>
-            <p className="mt-">
+            <p className="mt-1">
               Al Fatah Online Quran Academy is suitable for beginners, and it
               caters to students with varying levels of Quranic knowledge. The
               academy provides resources and support for those starting their

@@ -1,3 +1,4 @@
+"user client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -76,7 +77,7 @@ const Footer = (Props: Props) => {
             </h2>
             <div className="py-2 md:py-4 text-center md:text-left">
               <div className="flex justify-center items-center py-2 md:justify-start text-[#FFE5A2]">
-                <Link
+                <a
                   className="flex justify-center items-center"
                   href="mailto:alfatahquranacadmy@gmail.com"
                   target="_blank"
@@ -85,21 +86,25 @@ const Footer = (Props: Props) => {
                   <span className="text-[#FFE5A2] px-2">
                     alfatahquranacadmy@gmail.com
                   </span>
-                </Link>
+                </a>
               </div>
               <div className="flex justify-center items-center py-2 md:justify-start text-[#FFE5A2]">
-                <Link
+                <a
                   className="flex justify-center items-center"
                   href="tel:+9230947583"
-                  target="_blank"
                 >
                   <IoCall className="text-2xl" />
                   <span className="text-[#FFE5A2] px-2">+92 30947583</span>
-                </Link>
+                </a>
               </div>
               <div className="flex justify-center items-center py-2 md:justify-start text-[#FFE5A2] ">
-                <FaSkype className="text-2xl" />
-                <span className="text-[#FFE5A2] px-2">+92 30947583</span>
+                <a
+                  className="flex justify-center items-center"
+                  href="skype:+9230947583"
+                >
+                  <FaSkype className="text-2xl" />
+                  <span className="text-[#FFE5A2] px-2">+92 30947583</span>
+                </a>
               </div>
             </div>
             <span className="inline-flex gap-2 sm:ml-auto sm:mt-0 md:mt-2 justify-center sm:justify-start pt-5">

@@ -5,6 +5,7 @@ import Qaida from "../../../public/assets/qaida.jpg";
 import Nazra from "../../../public/assets/nazra.jpg";
 import Hifaz from "../../../public/assets/hifiz.jpg";
 import Tajweed from "../../../public/assets/quranandtajweed.jpg";
+import Link from "next/link";
 type Props = {};
 
 const Services = (props: Props) => {
@@ -23,8 +24,11 @@ const Services = (props: Props) => {
             />
           </div>
           <div className="flex flex-wrap md:flex-nowrap py-5 ">
-            <div className="p-4 w-full md:w-1/2 rounded-t-[2rem]">
-              <div className="bg-[#FFE5A2] custom-shadow rounded-[3rem] h-full">
+            <Link
+              href={"/services"}
+              className="p-4 w-full md:w-1/2 rounded-t-[2rem] cursor-pointer"
+            >
+              <div className="bg-[#FFE5A2] group hover:bg-[#544214] custom-shadow rounded-[3rem] h-full ">
                 <div className="h-full ">
                   <Image
                     className="rounded-[3rem]  w-full object-cover"
@@ -33,39 +37,39 @@ const Services = (props: Props) => {
                   />
 
                   <div className="p-9">
-                    <h2 className="text-2xl md:text-[2.5rem]  text-[#544214] font-bold">
+                    <h2 className="text-2xl md:text-[2.5rem] text-[#544214] group-hover:text-[#FFE5A2] font-bold">
                       Basic Qaida
                     </h2>
-                    <p className="text-[1.25rem] mt-4 text-[#544214]">
+                    <p className="text-[1.25rem] mt-4 text-[#544214] group-hover:text-[#FFE5A2]">
                       This is the basic learning of quran
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="p-4 w-full md:w-1/2">
-              <div className="bg-[#FFE5A2] custom-shadow  rounded-[3rem] h-full">
+            </Link>
+            <Link href={"/services"} className="p-4 w-full md:w-1/2">
+              <div className="group bg-[#FFE5A2] hover:bg-[#544214] custom-shadow rounded-[3rem] h-full">
                 <div className="h-full">
                   <Image
                     className="rounded-[3rem] w-full"
                     src={Nazra}
                     alt="Picture of the author"
                   />
-                  <div className="p-9">
-                    <h2 className="text-2xl md:text-[2.5rem] text-[#544214] font-bold">
+                  <div className="p-9 ">
+                    <h2 className="text-2xl md:text-[2.5rem] text-[#544214] group-hover:text-[#FFE5A2] font-bold">
                       Nazra
                     </h2>
-                    <p className="text-[1.25rem] mt-4 text-[#544214]">
+                    <p className="text-[1.25rem] mt-4 text-[#544214] group-hover:text-[#FFE5A2]">
                       This is the basic learning of quran
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="flex flex-wrap md:flex-nowrap ">
-            <div className="p-4 w-full md:w-1/2 ">
-              <div className="bg-[#FFE5A2] custom-shadow rounded-[3rem] h-full">
+            <Link href={"/services"} className="p-4 w-full md:w-1/2 ">
+              <div className="bg-[#FFE5A2] group hover:bg-[#544214] custom-shadow rounded-[3rem] h-full">
                 <div className="h-full">
                   <Image
                     className="rounded-[3rem] w-full"
@@ -73,18 +77,18 @@ const Services = (props: Props) => {
                     alt="Picture of the author"
                   />
                   <div className="p-9">
-                    <h2 className=" text-2xl md:text-[2.5rem] font-bold text-[#544214] text-bold">
+                    <h2 className=" text-2xl md:text-[2.5rem] font-bold text-[#544214] text-bold group-hover:text-[#FFE5A2]">
                       Hifz-e-Quran
                     </h2>
-                    <p className="text-[1.25rem] mt-4 text-[#544214]">
+                    <p className="text-[1.25rem] mt-4 text-[#544214] group-hover:text-[#FFE5A2]">
                       This is the memorization of quran
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="p-4 w-full md:w-1/2  ">
-              <div className="bg-[#FFE5A2] custom-shadow rounded-[3rem] h-full">
+            </Link>
+            <Link href={"/services"} className="p-4 w-full md:w-1/2  ">
+              <div className="bg-[#FFE5A2] group hover:bg-[#544214] custom-shadow rounded-[3rem] h-full">
                 <div className="h-full">
                   <Image
                     className="rounded-[3rem] w-full"
@@ -92,17 +96,17 @@ const Services = (props: Props) => {
                     alt="Picture of the author"
                   />
                   <div className="p-9">
-                    <h2 className=" text-2xl md:text-[2.5rem] font-bold text-[#544214] text-bold">
+                    <h2 className=" text-2xl md:text-[2.5rem] font-bold text-[#544214] text-bold group-hover:text-[#FFE5A2]">
                       Quran with Tajweed
                     </h2>
-                    <p className="text-[1.25rem] mt-4 text-[#544214]">
+                    <p className="text-[1.25rem] mt-4 text-[#544214] group-hover:text-[#FFE5A2]">
                       These are the set of pronunciation & rules used in
                       reciting quran
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>

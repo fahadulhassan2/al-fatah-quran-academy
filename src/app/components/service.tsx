@@ -56,7 +56,6 @@ const ServicePage = (props: Props) => {
             </div>
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left md:first-line  md:pl-[3rem] p-1">
               <h1 className="text-[#544214] text-[1rem] md:text-[1.5rem]">
-                {" "}
                 Nazra
               </h1>
               <ul className="text-[#544214] text-[0.875rem] pl-2">
