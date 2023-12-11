@@ -25,6 +25,26 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFE5A2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #544214;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #544214d2;
+}
 
 .custom-shadow{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;

@@ -23,9 +23,12 @@ const Footer = (Props: Props) => {
               alt="Picture of the author"
             />
             <p className="text-[#FFE5A2] text-[1rem]">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              totam aliquam ratione vitae provident nesciunt facere quae
-              dolores, quasi natus.
+              We built the Al Fatah Quran Academy website to make learning about
+              the Quran easy for everyone. Our goal is to connect people
+              worldwide with the teachings of the Quran using an online
+              platform, embracing both technology and spiritual education. This
+              website reflects our dedication to providing accessible and
+              valuable religious knowledge globally
             </p>
           </div>
           <div className="lg:w-1/3 md:w-1/2 w-full px-4">
