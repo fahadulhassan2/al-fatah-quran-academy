@@ -4,11 +4,12 @@ import Image from "next/image";
 import Line from "../../../public/assets/Line-3.png";
 import Logo from "../../../public/assets/Brown.png";
 import { useForm, ValidationError } from "@formspree/react";
+import Thanks from "./Thanks";
 type Props = {};
 const Registration = (props: Props) => {
   const [state, handleSubmit] = useForm("xnqkeowk");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <Thanks />;
   }
 
   return (
@@ -54,7 +55,8 @@ const Registration = (props: Props) => {
                         type="text"
                         id="name"
                         name="name"
-                        className="w-full bg-[#FFFBF2] bg-opacity-50 rounded text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        required
+                        className="rounded-lg custom-shadow w-full bg-[#FFFBF2] bg-opacity-50 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
                       <ValidationError
                         prefix="Name"
@@ -72,7 +74,8 @@ const Registration = (props: Props) => {
                         type="text"
                         id="number"
                         name="number"
-                        className="w-full bg-[#FFFBF2] bg-opacity-50 rounded text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        required
+                        className="rounded-lg custom-shadow w-full bg-[#FFFBF2] bg-opacity-50 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
                       <ValidationError
                         prefix="Number"
@@ -90,7 +93,8 @@ const Registration = (props: Props) => {
                         type="email"
                         id="email"
                         name="email"
-                        className="w-full bg-[#FFFBF2] bg-opacity-50 rounded text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        required
+                        className="rounded-lg custom-shadow w-full bg-[#FFFBF2] bg-opacity-50 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
                       <ValidationError
                         prefix="Email"
@@ -107,7 +111,8 @@ const Registration = (props: Props) => {
                       <textarea
                         id="message"
                         name="message"
-                        className="w-full bg-[#FFFBF2] bg-opacity-50 rounded h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                        required
+                        className="rounded-lg custom-shadow w-full bg-[#FFFBF2] bg-opacity-50 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                       ></textarea>
                       <ValidationError
                         prefix="Message"

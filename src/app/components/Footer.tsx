@@ -1,4 +1,4 @@
-"user client";
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -86,51 +86,55 @@ const Footer = (Props: Props) => {
             <div className="py-2 md:py-4 text-center md:text-left">
               <div className="flex justify-center items-center py-2 md:justify-start text-[#FFE5A2]">
                 <a
-                  className="flex justify-center items-center"
+                  className="group flex justify-center items-center"
                   href="mailto:alfatahquranacadmy@gmail.com"
                   target="_blank"
                 >
-                  <MdEmail className="text-2xl" />
-                  <span className="text-[#FFE5A2] px-2">
+                  <MdEmail className="custom-shadow text-2xl group-hover:text-[#ffe5a296]" />
+                  <span className="text-[#FFE5A2] group-hover:text-[#ffe5a296] px-2">
                     alfatahquranacadmy@gmail.com
                   </span>
                 </a>
               </div>
               <div className="flex justify-center items-center py-2 md:justify-start text-[#FFE5A2]">
                 <a
-                  className="flex justify-center items-center"
+                  className="group flex justify-center items-center"
                   href="tel:+9230947583"
                 >
-                  <IoCall className="text-2xl" />
-                  <span className="text-[#FFE5A2] px-2">+92 30947583</span>
+                  <IoCall className="custom-shadow text-2xl group-hover:text-[#ffe5a296]" />
+                  <span className="text-[#FFE5A2] px-2 group-hover:text-[#ffe5a296]">
+                    +923460511514
+                  </span>
                 </a>
               </div>
               <div className="flex justify-center items-center py-2 md:justify-start text-[#FFE5A2] ">
                 <a
-                  className="flex justify-center items-center"
-                  href="skype:+9230947583"
+                  className="group flex justify-center items-center"
+                  href="skype:+923460511514"
                 >
-                  <FaSkype className="text-2xl" />
-                  <span className="text-[#FFE5A2] px-2">+92 30947583</span>
+                  <FaSkype className="custom-shadow text-2xl group-hover:text-[#ffe5a296]" />
+                  <span className="text-[#FFE5A2] px-2 group-hover:text-[#ffe5a296]">
+                    +923460511514
+                  </span>
                 </a>
               </div>
             </div>
             <span className="inline-flex gap-2 sm:ml-auto sm:mt-0 md:mt-2 justify-center sm:justify-start pt-5">
               <a className="text-[#FFE5A2] ">
-                <FaFacebook className="text-4xl hover:text-[#ffe5a296] cursor-pointer" />
+                <FaFacebook className="custom-shadow text-4xl hover:text-[#ffe5a296] cursor-pointer" />
               </a>
               <a className="ml-3 text-[#FFE5A2]">
-                <AiFillInstagram className="text-4xl hover:text-[#ffe5a296] cursor-pointer" />
+                <AiFillInstagram className="custom-shadow text-4xl hover:text-[#ffe5a296] cursor-pointer" />
               </a>
               <a className="ml-3 text-[#FFE5A2]">
-                <FaLinkedin className="text-4xl hover:text-[#ffe5a296] cursor-pointer" />
+                <FaLinkedin className="custom-shadow text-4xl hover:text-[#ffe5a296] cursor-pointer" />
               </a>
               <Link
-                href={"https://wa.me/+9230947583?"}
+                href={"https://wa.me/+923460511514?"}
                 target="_blank"
                 className="ml-3 text-[#FFE5A2]"
               >
-                <IoLogoWhatsapp className="text-4xl hover:text-[#ffe5a296] cursor-pointer" />
+                <IoLogoWhatsapp className="custom-shadow text-4xl hover:text-[#ffe5a296] cursor-pointer" />
               </Link>
             </span>
           </div>
