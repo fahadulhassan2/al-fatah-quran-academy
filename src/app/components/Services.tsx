@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Line from "../../../public/assets/Line 2.png";
-import Qaida from "../../../public/assets/Qaida.png";
-import Nazra from "../../../public/assets/nazra.png";
-import Hifaz from "../../../public/assets/hifaz.png";
-import Tajweed from "../../../public/assets/tajweed.png";
+import Qaida from "../../../public/assets/qaida.jpg";
+import Nazra from "../../../public/assets/nazra.jpg";
+import Hifaz from "../../../public/assets/hifiz.jpg";
+import Tajweed from "../../../public/assets/quranandtajweed.jpg";
 type Props = {};
 
 const Services = (props: Props) => {
@@ -27,10 +27,11 @@ const Services = (props: Props) => {
               <div className="bg-[#FFE5A2] custom-shadow rounded-[3rem] h-full">
                 <div className="h-full ">
                   <Image
-                    className=" w-full"
+                    className="rounded-[3rem]  w-full object-cover"
                     src={Qaida}
                     alt="Picture of the author"
                   />
+
                   <div className="p-9">
                     <h2 className="text-2xl md:text-[2.5rem]  text-[#544214] font-bold">
                       Basic Qaida
@@ -46,7 +47,7 @@ const Services = (props: Props) => {
               <div className="bg-[#FFE5A2] custom-shadow  rounded-[3rem] h-full">
                 <div className="h-full">
                   <Image
-                    className="rounded-border w-full"
+                    className="rounded-[3rem] w-full"
                     src={Nazra}
                     alt="Picture of the author"
                   />
@@ -67,7 +68,7 @@ const Services = (props: Props) => {
               <div className="bg-[#FFE5A2] custom-shadow rounded-[3rem] h-full">
                 <div className="h-full">
                   <Image
-                    className="rounded-border w-full"
+                    className="rounded-[3rem] w-full"
                     src={Hifaz}
                     alt="Picture of the author"
                   />
@@ -86,7 +87,7 @@ const Services = (props: Props) => {
               <div className="bg-[#FFE5A2] custom-shadow rounded-[3rem] h-full">
                 <div className="h-full">
                   <Image
-                    className="rounded-border w-full"
+                    className="rounded-[3rem] w-full"
                     src={Tajweed}
                     alt="Picture of the author"
                   />
