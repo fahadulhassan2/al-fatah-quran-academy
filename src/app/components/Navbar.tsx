@@ -47,7 +47,7 @@ const Navbar = (props: Props) => {
               About Us
             </Link>
             <Link className="font-semibold" href={"/resgister-with-us"}>
-              <button className="font-semibold md:block inline-flex items-center bg-[#FFE5A2] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-4 md:mt-0">
+              <button className="custom-shadow font-semibold md:block inline-flex items-center bg-[#FFE5A2] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-4 md:mt-0">
                 Register
               </button>
             </Link>
@@ -88,7 +88,7 @@ const Navbar = (props: Props) => {
                 className="m-0 ml-9 font-semibold"
                 href={"/resgister-with-us"}
               >
-                <button className="m-0 font-semibold bg-[#FFE5A2] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] ">
+                <button className="custom-shadow m-0 font-semibold bg-[#FFE5A2] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] ">
                   Register
                 </button>
               </Link>

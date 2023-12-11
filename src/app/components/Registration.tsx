@@ -34,7 +34,7 @@ const Registration = (props: Props) => {
             </p>
             <div className="bg-[#544214] custom-shadow mt-[5rem] rounded-[2rem] px-5 py-24">
               <div className="lg:w-4/5 custom-shadow bg-[#FFE5A2] rounded-[2rem] md:w-2/3 mx-auto p-3 md:p-10 md:px-14 md:mt-[-9.5rem]">
-                <div className="mx-auto w-[25%]">
+                <div className="mx-auto w-full md:w-[25%]">
                   <Image
                     className="mx-auto w-full my-3"
                     src={Logo}
