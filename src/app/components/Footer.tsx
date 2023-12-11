@@ -82,7 +82,9 @@ const Footer = (Props: Props) => {
                 </span>
               </div>
               <div className="flex justify-center items-center py-2 md:justify-start text-[#FFE5A2]">
-                <IoCall className="text-2xl" />
+                <Link href="tel:+9230947583" target="_blank">
+                  <IoCall className="text-2xl" />
+                </Link>
                 <span className="text-[#FFE5A2] px-2">+92 30947583</span>
               </div>
               <div className="flex justify-center items-center py-2 md:justify-start text-[#FFE5A2] ">
@@ -100,9 +102,13 @@ const Footer = (Props: Props) => {
               <a className="ml-3 text-[#FFE5A2]">
                 <FaLinkedin className="text-4xl hover:text-[#ffe5a296] cursor-pointer" />
               </a>
-              <a className="ml-3 text-[#FFE5A2]">
+              <Link
+                href={"https://wa.me/+9230947583?"}
+                target="_blank"
+                className="ml-3 text-[#FFE5A2]"
+              >
                 <IoLogoWhatsapp className="text-4xl hover:text-[#ffe5a296] cursor-pointer" />
-              </a>
+              </Link>
             </span>
           </div>
         </div>
