@@ -37,7 +37,7 @@ const Register = (props: Props) => {
                     </p>
                   </div>
                   <Link href={"/plan-and-price"}>
-                    <button className="w-full font-bold items-end text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
+                    <button className="custom-shadow w-full font-bold items-end text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
                       Plan & Pricing
                     </button>
                   </Link>
@@ -60,7 +60,7 @@ const Register = (props: Props) => {
                     </p>
                   </div>
                   <Link href={"/resgister-with-us"}>
-                    <button className="w-full font-semibold text-center bg-[#544214] border-0 py-2 px-4 focus:outline-none hover:bg-[#544214] rounded-full text-[#FFE5A2] mt-5 ">
+                    <button className="custom-shadow w-full font-semibold text-center bg-[#544214] border-0 py-2 px-4 focus:outline-none hover:bg-[#544214] rounded-full text-[#FFE5A2] mt-5 ">
                       Register with us
                     </button>
                   </Link>
@@ -83,7 +83,7 @@ const Register = (props: Props) => {
                     </p>
                   </div>
                   <Link href={"https://wa.me/+9230947583?"} target="_blank">
-                    <button className="w-full font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5 ">
+                    <button className="custom-shadow w-full font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5 ">
                       Whats app Chat
                     </button>
                   </Link>

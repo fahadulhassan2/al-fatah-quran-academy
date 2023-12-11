@@ -45,6 +45,14 @@ const Footer = (Props: Props) => {
                   Home
                 </Link>
               </li>
+              {/* <li className="my-2">
+                <Link
+                  href={"/"}
+                  className="text-[#FFE5A2] cursor-pointer hover:text-[#FFFBF2] my-3"
+                >
+                  Home
+                </Link>
+              </li> */}
               <li className="my-2">
                 <Link
                   href={"/services"}
