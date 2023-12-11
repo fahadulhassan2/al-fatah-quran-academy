@@ -38,7 +38,7 @@ const Header = (props: Props) => {
                 <h1 className="text-[#544214] mt-2 mb-16 text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
                   Al-Fatah Quran Academy
                 </h1>
-                <button className="font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
+                <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
                   Services
                 </button>
               </div>
@@ -63,7 +63,7 @@ const Header = (props: Props) => {
                 <h1 className="text-[#544214] mt-2 mb-16 text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
                   Al-Fatah Quran Academy
                 </h1>
-                <button className="font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
+                <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
                   Services
                 </button>
               </div>
@@ -88,7 +88,7 @@ const Header = (props: Props) => {
                 <h1 className="text-[#544214] mt-2 mb-16 text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
                   Al-Fatah Quran Academy
                 </h1>
-                <button className="font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
+                <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
                   Services
                 </button>
               </div>
@@ -113,7 +113,7 @@ const Header = (props: Props) => {
                 <h1 className="text-[#544214] mt-2 mb-16 text-5xl font-bold tracking-tight md:text-4xl xl:text-6xl">
                   Al-Fatah Quran Academy
                 </h1>
-                <button className="font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
+                <button className="custom-shadow font-semibold text-center bg-[#FFE5A2] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded-full text-[#544214] mt-5">
                   Services
                 </button>
               </div>

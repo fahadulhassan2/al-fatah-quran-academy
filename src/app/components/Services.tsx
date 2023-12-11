@@ -26,12 +26,12 @@ const Services = (props: Props) => {
           <div className="flex flex-wrap md:flex-nowrap py-5 ">
             <Link
               href={"/services"}
-              className="p-4 w-full md:w-1/2 rounded-t-[2rem] cursor-pointer"
+              className="p-4 w-full md:w-1/2 rounded-t-[1rem] md:rounded-t-[2rem] cursor-pointer"
             >
-              <div className="bg-[#FFE5A2] group hover:bg-[#544214] custom-shadow rounded-[3rem] h-full ">
+              <div className="bg-[#FFE5A2] group hover:bg-[#544214] custom-shadow rounded-3xl md:rounded-[3rem] h-full ">
                 <div className="h-full ">
                   <Image
-                    className="rounded-[3rem]  w-full object-cover"
+                    className="rounded-[1.5rem] md:rounded-[3rem] w-full object-cover"
                     src={Qaida}
                     alt="Picture of the author"
                   />
@@ -48,10 +48,10 @@ const Services = (props: Props) => {
               </div>
             </Link>
             <Link href={"/services"} className="p-4 w-full md:w-1/2">
-              <div className="group bg-[#FFE5A2] hover:bg-[#544214] custom-shadow rounded-[3rem] h-full">
+              <div className="group bg-[#FFE5A2] hover:bg-[#544214] custom-shadow rounded-3xl md:rounded-[3rem] h-full">
                 <div className="h-full">
                   <Image
-                    className="rounded-[3rem] w-full"
+                    className="rounded-[1.5rem] md:rounded-[3rem] w-full"
                     src={Nazra}
                     alt="Picture of the author"
                   />
@@ -69,10 +69,10 @@ const Services = (props: Props) => {
           </div>
           <div className="flex flex-wrap md:flex-nowrap ">
             <Link href={"/services"} className="p-4 w-full md:w-1/2 ">
-              <div className="bg-[#FFE5A2] group hover:bg-[#544214] custom-shadow rounded-[3rem] h-full">
+              <div className="bg-[#FFE5A2] group hover:bg-[#544214] custom-shadow rounded-3xl md:rounded-[3rem] h-full">
                 <div className="h-full">
                   <Image
-                    className="rounded-[3rem] w-full"
+                    className="rounded-[1.5rem] md:rounded-[3rem] w-full"
                     src={Hifaz}
                     alt="Picture of the author"
                   />
@@ -88,10 +88,10 @@ const Services = (props: Props) => {
               </div>
             </Link>
             <Link href={"/services"} className="p-4 w-full md:w-1/2  ">
-              <div className="bg-[#FFE5A2] group hover:bg-[#544214] custom-shadow rounded-[3rem] h-full">
+              <div className="bg-[#FFE5A2] group hover:bg-[#544214] custom-shadow rounded-3xl md:rounded-[3rem] h-full">
                 <div className="h-full">
                   <Image
-                    className="rounded-[3rem] w-full"
+                    className="rounded-[1.5rem] md:rounded-[3rem] w-full"
                     src={Tajweed}
                     alt="Picture of the author"
                   />

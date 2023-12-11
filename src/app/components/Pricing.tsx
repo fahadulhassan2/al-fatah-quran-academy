@@ -3,6 +3,7 @@ import Image from "next/image";
 import PriceImg from "../../../public/assets/price-line.png";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaCircleXmark } from "react-icons/fa6";
+import Link from "next/link";
 
 type Props = {};
 
@@ -37,10 +38,10 @@ const Pricing = (props: Props) => {
                 </h1>
               </div>
               <div className="text-center text-[#000000] pt-5">
-                <h3 className="font-bold text-[1.5rem]">
+                <h3 className="font-extrabold text-[2rem]">
                   <span className="font-bold text-[1rem]">$</span> 33
                 </h3>
-                <p>Monthly</p>
+                <p className="font-bold">Monthly</p>
               </div>
               <div className=" m-auto  py-10">
                 <div className="flex items-center ">
@@ -70,9 +71,11 @@ const Pricing = (props: Props) => {
               </div>
 
               <div className="text-center my-10">
-                <button className="custom-shadow items-center font-bold text-[#FFE5A2] bg-[#544214] border-0 py-2 px-8 focus:outline-none hover:bg-[#FFFBF2] hover:text-[#544214] rounded-full">
-                  Order Now
-                </button>
+                <Link href={"/resgister-with-us"}>
+                  <button className="custom-shadow items-center font-bold text-[#FFE5A2] bg-[#544214] border-0 py-2 px-8 focus:outline-none hover:bg-[#FFFBF2] hover:text-[#544214] rounded-full">
+                    Order Now
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -84,10 +87,10 @@ const Pricing = (props: Props) => {
                 </h1>
               </div>
               <div className="text-center text-[#000000] pt-5">
-                <h3 className="font-bold text-[1.5rem]">
+                <h3 className="font-extrabold text-[2rem]">
                   <span className="font-bold text-[1rem]">$</span> 45
                 </h3>
-                <p>Monthly</p>
+                <p className="font-bold">Monthly</p>
               </div>
               <div className=" m-auto  py-10">
                 <div className="flex items-center ">
@@ -117,9 +120,11 @@ const Pricing = (props: Props) => {
               </div>
 
               <div className="text-center my-10">
-                <button className="custom-shadow items-center font-bold text-[#FFE5A2] bg-[#544214] border-0 py-2 px-8 focus:outline-none hover:bg-[#FFFBF2] hover:text-[#544214] rounded-full">
-                  Order Now
-                </button>
+                <Link href={"/resgister-with-us"}>
+                  <button className="custom-shadow items-center font-bold text-[#FFE5A2] bg-[#544214] border-0 py-2 px-8 focus:outline-none hover:bg-[#FFFBF2] hover:text-[#544214] rounded-full">
+                    Order Now
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -131,10 +136,10 @@ const Pricing = (props: Props) => {
                 </h1>
               </div>
               <div className="text-center text-[#000000] pt-5">
-                <h3 className="font-bold text-[1.5rem]">
+                <h3 className="font-extrabold text-[2rem]">
                   <span className="font-bold text-[1rem]">$</span> 70
                 </h3>
-                <p>Monthly</p>
+                <p className="font-bold">Monthly</p>
               </div>
               <div className=" m-auto  py-10">
                 <div className="flex items-center ">
@@ -164,9 +169,11 @@ const Pricing = (props: Props) => {
               </div>
 
               <div className="text-center my-10">
-                <button className="custom-shadow items-center font-bold text-[#FFE5A2] bg-[#544214] border-0 py-2 px-8 focus:outline-none hover:bg-[#FFFBF2] hover:text-[#544214] rounded-full">
-                  Order Now
-                </button>
+                <Link href={"/resgister-with-us"}>
+                  <button className="custom-shadow items-center font-bold text-[#FFE5A2] bg-[#544214] border-0 py-2 px-8 focus:outline-none hover:bg-[#FFFBF2] hover:text-[#544214] rounded-full">
+                    Order Now
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -181,7 +188,7 @@ const Pricing = (props: Props) => {
                 <h3 className="font-bold text-[1.5rem]">
                   <span className="font-bold text-[1rem]">$</span> 85
                 </h3>
-                <p>Monthly</p>
+                <p className="font-bold">Monthly</p>
               </div>
               <div className=" m-auto  py-10">
                 <div className="flex items-center ">
